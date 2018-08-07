@@ -8,7 +8,8 @@ EXECUTABLES = dump clonablePcapDumper kni copy errorHandling timer \
 		createPacket sendFixedPktsNumber gtpu pingReplay \
 		netlink gopacketParserExample devbind generate \
 		OSforwarding jumbo
-SUBDIRS = tutorial antiddos demo fileReadWrite firewall forwarding ipsec lb
+
+SUBDIRS = tutorial antiddos demo fileReadWrite firewall forwarding ipsec lb ngic
 
 .PHONY: dpi nffPktgen
 dpi:
